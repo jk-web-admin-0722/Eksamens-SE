@@ -28,32 +28,33 @@ h1 {
 
 
 .logotips{
-    color: black;
-    font-size: 15px;
+    color: rgb(117, 117, 238);
+    font-size: 20px;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    padding: 0 150px 0px 0px;
+    padding: 0 70px 0px 0px;
     
 }
 .nav {
     list-style: none;
     margin: 0;
     
-    background-color: rgb(184, 241, 241);
-    padding-top: 8px;
+    background-color: rgb(15, 18, 18);
+    padding-top: 0;
 }
 .nav li {
     display: inline-block;
     line-height: 60px;
-    margin: 10px 5px;
+    margin: 5px 5px;
     float:inline-start;
     padding: 0px 0px;
+    text-align: center;
 
 }
 .nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(249, 243, 243);
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px;
 
@@ -63,11 +64,28 @@ h1 {
 }
 .nav a:hover {
     background-color: rgb(9, 106, 192);
+   color: tomato;
 
 }
+
+.nav a:after{
+content: '';
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%) scaleX(0);
+-webkit-transform: translateX(-50%) scaleX(0);
+-webkit-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+width: 100%;
+height: 2px;
+background-color: rgba (255,255,255,0.9);
+transition: transform 250ms;
+}
+
 .nav .active {
     background-color: aliceblue;
-    transition: .5s;
+    transition: .9s;
 }
 .bildes {
     display: block;
@@ -75,7 +93,53 @@ h1 {
     margin-right: auto;
     width: 60%;
     margin-bottom: 10px;
-
-body {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
+    
+.fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #1616d1;
+    }
+    
+.fieldset:last-of-type {
+    border-bottom: none;
+    }
+    
+.label {
+    display: block;
+    margin: 0.5rem 0;
+    }
+    
+    input,
+    textarea,
+    select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    }
+    
+    .input, textarea {
+    border: 1px solid #0a0a23;
+    color: black;
+    }
+    
+    .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    }
+    
+    .input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    }
+    
+    .input[type="file"] {
+    padding: 1px 2px;
+    }
