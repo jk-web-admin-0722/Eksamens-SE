@@ -1,3 +1,81 @@
 h1 {
-    color: red;
+    
+    color: rgb(25, 15, 15);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.virsraksts{
+    color: rgb(25, 15, 15);
+    text-transform: uppercase;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    
+}
+.teksts {
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    /*border: 1px solid rgb(87, 196, 204);*/
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    
+}
+
+
+.logotips{
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 0 150px 0px 0px;
+    
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    
+    background-color: rgb(184, 241, 241);
+    padding-top: 8px;
+}
+.nav li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 10px 5px;
+    float:inline-start;
+    padding: 0px 0px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: rgb(9, 106, 192);
+
+}
+.nav .active {
+    background-color: aliceblue;
+    transition: .5s;
+}
+.bildes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px;
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,13 +1,17 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/sakums')
 def home():
    return render_template('sakums.html')
 
 @app.route('/etron')
 def etron():
    return render_template('etron.html')
+   
+@app.route('/tesla')
+def tesla():
+   return render_template('tesla.html')
 
 @app.route('/fiat')
 def fiat():
