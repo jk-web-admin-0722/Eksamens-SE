@@ -5,6 +5,8 @@ h1 {
     text-align: center;
 }
 
+
+
 .virsraksts{
     color: rgb(25, 15, 15);
     text-transform: uppercase;
@@ -19,7 +21,6 @@ h1 {
     text-align: center;
     margin: auto;
     width: 60%;
-    /*border: 1px solid rgb(87, 196, 204);*/
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:larger;
@@ -64,11 +65,11 @@ h1 {
 }
 .nav a:hover {
     background-color: rgb(9, 106, 192);
-   color: tomato;
-
+    color: rgb(9, 7, 7);
+ 
 }
 
-.nav a:after{
+.nav ul a:after{
 content: '';
 position: absolute;
 left: 50%;
@@ -83,7 +84,7 @@ background-color: rgba (255,255,255,0.9);
 transition: transform 250ms;
 }
 
-.nav .active {
+.nav .active{
     background-color: aliceblue;
     transition: .9s;
 }
@@ -143,3 +144,7 @@ transition: transform 250ms;
     .input[type="file"] {
     padding: 1px 2px;
     }
+
+/*kontakti*/
+
+
