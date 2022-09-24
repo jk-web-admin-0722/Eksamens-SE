@@ -22,12 +22,14 @@ form {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+    border-radius: 45px;
   }
   
   fieldset {
     border: none;
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
+    
   }
   
   fieldset:last-of-type {
@@ -42,6 +44,7 @@ form {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
+    border-radius: 45px;
   }
   
   input, textarea {
